@@ -7,6 +7,9 @@ def digitFactorialSum(n: int):
     return total
 
 digitFactorials = []
+# Obvious lowerbound is 10 since single digit factorials such as 1! don't count according to problem description
+# Intuition says 9! as an upperbound is good enough (proof by guessing)
+# 9! = 362880, 
 for i in range(10, math.factorial(9)):
     if digitFactorialSum(i) == i:
         digitFactorials.append(i)

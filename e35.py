@@ -1,5 +1,6 @@
 import math
 
+# Sieve of erastothenes: https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 def sieve(n : int):
     if n < 1:
         return

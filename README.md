@@ -1,0 +1,2 @@
+# Project Euler solutions written in various languages (mostly python)
+Mostly here for personal reasons to track my progress on project euler problems, public as reference for others if they want to see my approaches to these problems.
